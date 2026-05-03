@@ -15,6 +15,10 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+EVO_BUILD_TYPE := Unofficial
+TARGET_INCLUDE_ACCORD := false
+WITH_GMS := true
+
 PRODUCT_NAME := lineage_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
